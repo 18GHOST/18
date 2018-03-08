@@ -2,7 +2,7 @@ const discord = require('discord.js');
 const ytdl = require('ytdl-core');
 const fs = require('fs');
 const client = new discord.Client();
-const token = "NDIwNjY3ODc3OTIyNzAxMzEz.DYGJbw.K8rMynxl-5_Co-lxzqbd9jeb0qQ";
+const token = process.env.TOKEN;
 
 client.on('ready', () => {
     var servers = client.guilds.array().map(g => g.name).join('.');
