@@ -34,46 +34,6 @@ client.on('message',message =>{
         }
     });
 
-client.on('message',message =>{
-      if(message.content.startsWith('`test')){
-        var mentionned = message.mentions.users.first();
-        var getvalueof;
-        if(mentionned){
-            var getvalueof = mentionned;
-        } else {
-            var getvalueof = message.author;
-        }
-        message.channel.sendMessage({
-          embed: {
-            type: 'rich',
-            description: '',
-            fields: [{
-              name: 'VSAV:',
-              value: 'PARTIT',
-              inline: true
-              
-            },
-            {
-              type:'rich',
-              description:'',
-              name:'test',
-              value:'22ans'
-              
-            },
-          ],
-          image: {
-            url: 'https://media.discordapp.net/attachments/419986298691125268/420958268312125440/Screenshot_2018-03-07-16-00-05-1.png'
-              },
-                color: 0x21177D,
-                footer: {
-                  text: '17|GHOST_ROLEPLAY',
-                  
-                },
-                
-          }  
-        })
-      }
-  });
 
 client.on('message', function(message) { 
   if (message.content == "stop") { 
