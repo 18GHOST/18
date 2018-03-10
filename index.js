@@ -7,7 +7,7 @@ const token = process.env.TOKEN;
 client.on('ready', () => {
     var servers = client.guilds.array().map(g => g.name).join('.');
     console.log("========================\n[!]Je fonctionne");
-    client.user.setGame("18|GHOST_ROLEPLAY")
+    client.user.setPresence({ game: { name: "Le Jeu Ici", url:"le lien", type: 1} });
     });
 //VSAV
  client.on('message',message =>{
