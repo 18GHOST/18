@@ -204,8 +204,6 @@ client . on ( ' message ' , message  => {
           }})
         }
     });
-
-
 client . on ( ' message ' , fonction ( message ) {
   if ( message . content  ==  " stop " ) {
     si ( un message . membres . hasPermission ( " MANAGE_MESSAGES " )) {
@@ -216,8 +214,4 @@ client . on ( ' message ' , fonction ( message ) {
     } 
   } 
 });
-
-
-
-
 client . connexion (token);
