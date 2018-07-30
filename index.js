@@ -3,7 +3,6 @@ const  ytdl  =  require ( ' ytdl-core ' );
 const  fs  =  require ( ' fs ' );
 const  client  =  nouveau  discord.Client ();
 const  token  =  processus . env . JETON ;
-
 client . sur ( ' prêt ' , () => {
     var servers =  client . guildes . array (). carte ( g  =>  g . nom ). rejoindre ( ' . ' );
     console . log ( " ===================== \ n [!] Je fonctionne " );
@@ -17,7 +16,7 @@ client . sur ( ' prêt ' , () => {
           description :  ' PARTIT ' ,
           couleur :  0xff090f ,
           vignette : {
-          url :  " http://up.autotitre.com/86e3caf4f8.jpg " }
+          url :  "  " }
           }})
 }});
  client . on ( ' message ' , message  => {
@@ -27,7 +26,7 @@ client . sur ( ' prêt ' , () => {
           description :  ' SUR LES LIEUX ' ,
           couleur :  0xff090f ,
           vignette : {
-          url :  " http://up.autotitre.com/86e3caf4f8.jpg " }
+          url :  "  " }
           }});
 client . on ( ' message ' , message  => {
       if ( message . content . startsWith ( ' 4 ' )) {
@@ -36,7 +35,7 @@ client . on ( ' message ' , message  => {
           description :  ' MESSAGE URGENT '
           couleur :  0xff090f ,
           vignette : {
-          url :  " http://up.autotitre.com/86e3caf4f8.jpg " }
+          url :  "  " }
           }});
 client . on ( ' message ' , message  => {
       if ( message . content . startsWith ( ' 5 ' )) {
@@ -45,7 +44,7 @@ client . on ( ' message ' , message  => {
           description :  ' DEPART HOPITAL'
           couleur :  0xff090f ,
           vignette : {
-          url :  " http://up.autotitre.com/86e3caf4f8.jpg " }
+          url :  "  " }
           }});
 client . on ( ' message ' , message  => {
       if ( message . content . startsWith ( ' 6 ' )) {
@@ -54,7 +53,7 @@ client . on ( ' message ' , message  => {
           description :  ' ARRIVEE HOPITAL'
           couleur :  0xff090f ,
           vignette : {
-          url :  " http://up.autotitre.com/86e3caf4f8.jpg " }
+          url :  "  " }
           }});
 client . on ( ' message ' , message  => {
       if ( message . content . startsWith ( ' 7 ' )) {
@@ -63,7 +62,7 @@ client . on ( ' message ' , message  => {
           description :  ' DIPONIBLE'
           couleur :  0xff090f ,
           vignette : {
-          url :  " http://up.autotitre.com/86e3caf4f8.jpg " }
+          url :  "  " }
           }});
 client . on ( ' message ' , message  => {
       if ( message . content . startsWith ( ' 8 ' )) {
@@ -72,7 +71,7 @@ client . on ( ' message ' , message  => {
           description :  'INDISPONIBLE'
           couleur :  0xff090f ,
           vignette : {
-          url :  " http://up.autotitre.com/86e3caf4f8.jpg " }
+          url :  "  " }
           }});
 client . on ( ' message ' , message  => {
       if ( message . content . startsWith ( ' 9 ' )) {
@@ -81,7 +80,7 @@ client . on ( ' message ' , message  => {
           description :  ' RENTRE'
           couleur :  0xff090f ,
           vignette : {
-          url :  " http://up.autotitre.com/86e3caf4f8.jpg " }
+          url :  "  " }
           }});
  client . on ( ' message ' , message  => {
       if ( message . content . startsWith ( ' 3' )) {
@@ -90,7 +89,7 @@ client . on ( ' message ' , message  => {
           description :  ' MESSAGE ' ,
           couleur :  0xff090f ,
           vignette : {
-          url :  " http://up.autotitre.com/86e3caf4f8.jpg " }
+          url :  "  " }
           }});
 //SPECIAL
 client . on ( ' message ' , message  => {
@@ -100,7 +99,7 @@ client . on ( ' message ' , message  => {
           description :  ' SMUR SLL'
           couleur :  0xff090f ,
           vignette : {
-          url :  " http://up.autotitre.com/86e3caf4f8.jpg " }
+          url :  "  " }
           }});
 client . on ( ' message ' , message  => {
       if ( message . content . startsWith ( ' 30' )) {
@@ -109,7 +108,7 @@ client . on ( ' message ' , message  => {
           description :  ' POLICE SLL'
           couleur :  0xff090f ,
           vignette : {
-          url :  " http://up.autotitre.com/86e3caf4f8.jpg " }
+          url :  "  " }
           }});
 client . on ( ' message ' , message  => {
       if ( message . content . startsWith ( ' 31' )) {
@@ -118,7 +117,7 @@ client . on ( ' message ' , message  => {
           description :  'GENDARMERIE SLL'
           couleur :  0xff090f ,
           vignette : {
-          url :  " http://up.autotitre.com/86e3caf4f8.jpg " }
+          url :  "  " }
           }});
 client . on ( ' message ' , message  => {
       if ( message . content . startsWith ( ' 32' )) {
@@ -127,7 +126,7 @@ client . on ( ' message ' , message  => {
           description :  'EDF SLL'
           couleur :  0xff090f ,
           vignette : {
-          url :  " http://up.autotitre.com/86e3caf4f8.jpg " }
+          url :  "  " }
           }});
 client . on ( ' message ' , message  => {
       if ( message . content . startsWith ( ' 33' )) {
@@ -136,7 +135,7 @@ client . on ( ' message ' , message  => {
           description :  ' GDF SLL'
           couleur :  0xff090f ,
           vignette : {
-          url :  " http://up.autotitre.com/86e3caf4f8.jpg " }
+          url :  "  " }
           }});
 client . on ( ' message ' , message  => {
       if ( message . content . startsWith ( '34' )) {
@@ -145,7 +144,7 @@ client . on ( ' message ' , message  => {
           description :  ' DDE SLL'
           couleur :  0xff090f ,
           vignette : {
-          url :  " http://up.autotitre.com/86e3caf4f8.jpg " }
+          url :  "  " }
           }});
 client . on ( ' message ' , message  => {
       if ( message . content . startsWith ( ' 35' )) {
@@ -154,7 +153,7 @@ client . on ( ' message ' , message  => {
           description :  ' CG68 SLL'
           couleur :  0xff090f ,
           vignette : {
-          url :  " http://up.autotitre.com/86e3caf4f8.jpg " }
+          url :  "  " }
           }});
 client . on ( ' message ' , message  => {
       if ( message . content . startsWith ( ' 36' )) {
@@ -163,7 +162,7 @@ client . on ( ' message ' , message  => {
           description :  ' POLICE MINI. SLL'
           couleur :  0xff090f ,
           vignette : {
-          url :  " http://up.autotitre.com/86e3caf4f8.jpg " }
+          url :  "  " }
           }});
 client . on ( ' message ' , message  => {
       if ( message . content . startsWith ( ' 37' )) {
@@ -172,7 +171,7 @@ client . on ( ' message ' , message  => {
           description :  ' BRIG. VERTE SLL'
           couleur :  0xff090f ,
           vignette : {
-          url :  " http://up.autotitre.com/86e3caf4f8.jpg " }
+          url :  "  " }
           }});
 client . on ( ' message ' , message  => {
       if ( message . content . startsWith ( '38')) {
@@ -181,7 +180,7 @@ client . on ( ' message ' , message  => {
           description :  ' MAIRE SLL'
           couleur :  0xff090f ,
           vignette : {
-          url :  " http://up.autotitre.com/86e3caf4f8.jpg " }
+          url :  "  " }
           }});
 client . on ( ' message ' , message  => {
       if ( message . content . startsWith ( ' 44' )) {
@@ -190,7 +189,7 @@ client . on ( ' message ' , message  => {
           description :  ' DISPONIBLE SLL'
           couleur :  0xff090f ,
           vignette : {
-          url :  " http://up.autotitre.com/86e3caf4f8.jpg " }
+          url :  "  " }
           }});
 client . on ( ' message ' , message  => {
       if ( message . content . startsWith ( ' aide ' )) {
